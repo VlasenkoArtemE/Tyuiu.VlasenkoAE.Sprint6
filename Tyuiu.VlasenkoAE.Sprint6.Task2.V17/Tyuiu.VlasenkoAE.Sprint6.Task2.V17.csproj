@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="winforms.datavisualization" Version="1.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.VlasenkoAE.Sprint6.Task2.V17.Lib\Tyuiu.VlasenkoAE.Sprint6.Task2.V17.Lib.csproj" />
+  </ItemGroup>
+
+</Project>
