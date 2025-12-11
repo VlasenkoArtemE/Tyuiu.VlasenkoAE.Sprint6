@@ -29,7 +29,14 @@ namespace Tyuiu.VlasenkoAE.Sprint6.Task6.V22.Lib
                             }
                             else 
                             {
-                                resStr = resStr + " " + word;
+                                if (word == "")
+                                {
+                                    continue;
+                                }
+                                else
+                                {
+                                    resStr = resStr + " " + word;
+                                }
                             }
                         }
                     }
